@@ -20,7 +20,7 @@ const SettingsCmd = async (m, Matrix) => {
 
   try {
     const configInfo = {
-      '🤖 BOT_NAME': config.BOT_NAME || 'EF-PRIME',
+      '🤖 BOT_NAME': config.BOT_NAME || 'TONIC-MD',
       '⚡ PREFIX': config.PREFIX,
       '👑 OWNER_NUMBER': config.OWNER_NUMBER,
       '📝 STATUS_TEXT': config.STATUS_TEXT || 'Not configured',
