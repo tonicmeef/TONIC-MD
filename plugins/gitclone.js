@@ -1,7 +1,6 @@
 import { exec } from 'child_process';
 import fs from 'fs';
 import path from 'path';
-import archiver from 'archiver';
 import config from '../config.cjs';
 
 const downloadGitHubRepo = async (m, Matrix) => {
