@@ -62,11 +62,6 @@ const test = async (m, Matrix) => {
   const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(' ')[0].toLowerCase() : '';
   const mode = config.MODE === 'public' ? 'public' : 'private';
   const pref = config.PREFIX;
-	const uptime = process.uptime();
-    const hours = Math.floor(uptime / 3600);
-    const minutes = Math.floor((uptime % 3600) / 60);
-    const seconds = Math.floor(uptime % 60);
-    
 
   const validCommands = ['list', 'help', 'menu'];
 
@@ -81,7 +76,7 @@ const test = async (m, Matrix) => {
 *┊* ❒ ᴘʀᴇғɪx : [${prefix}]
 *┊* ❒ ᴠᴇʀsɪᴏɴ : *1.0.0*
 *┊* ❒ ʀᴇɢɪᴏɴ : ᴢɪᴍʙᴀʙᴡᴇ
-*┊* ❒ ᴜᴘᴛɪᴍᴇ : *${hours}h ${minutes}m ${seconds}s
+*┊* ❒ ᴜᴘᴛɪᴍᴇ : *${hours}h ${minutes}m ${seconds}s*
 *┊* ❒ ᴛɪᴍᴇ : ${xtime}
 *┊* ❒ ᴅᴀᴛᴇ : ${xdate}
 *╰──────────────*
