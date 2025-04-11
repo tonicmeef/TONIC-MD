@@ -32,8 +32,8 @@ const bible = async (m, gss) => {
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: '120363419090892208@newsletter',
-              newsletterName: "EF-PRIME",
+              newsletterJid: '120363374632065395@newsletter',
+              newsletterName:"Tᴏɴɪᴄ Tᴇᴄʜ Iɴᴄ.",
               serverMessageId: 143
             }
           }
