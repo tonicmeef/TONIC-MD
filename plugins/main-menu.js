@@ -66,16 +66,16 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const version = await fetchVersion();
 
         let dec = `╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄❑         
- ⚙️ *ᴍᴏᴅᴇ* : ${config.MODE}
- 🛠 *ᴘʀᴇғɪx* : ${config.PREFIX}
- ⚖️ *ʀᴀᴍ* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB 
- 🧰 *ᴠᴇʀsɪᴏɴ* : ${version}
- 🌍 *ʀᴇɢɪᴏɴ* : ᴢɪᴍʙᴀʙᴡᴇ
- 📜 *ᴘʟᴜɢɪɴs*: ${totalCommands}
- ⏳ *ᴜᴘᴛɪᴍᴇ* : ${runtime(process.uptime())} 
- ⏱️ *ᴛɪᴍᴇ* : ${getHarareTime()}
- 📆 *ᴅᴀᴛᴇ* : ${getHararedate()}
- 👑 *ᴄʀᴇᴀᴛᴏʀ* : ᴛᴏɴɪᴄ ᴍᴜɴᴏᴅᴀᴡᴀғᴀ
+⚙️ *ᴍᴏᴅᴇ* : ${config.MODE}
+🛠 *ᴘʀᴇғɪx* : ${config.PREFIX}
+⚖️ *ʀᴀᴍ* : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB 
+🧰 *ᴠᴇʀsɪᴏɴ* : ${version}
+🌍 *ʀᴇɢɪᴏɴ* : ᴢɪᴍʙᴀʙᴡᴇ
+📜 *ᴘʟᴜɢɪɴs*: ${totalCommands}
+⏳ *ᴜᴘᴛɪᴍᴇ* : ${runtime(process.uptime())} 
+⏱️ *ᴛɪᴍᴇ* : ${getHarareTime()}
+📆 *ᴅᴀᴛᴇ* : ${getHararedate()}
+👑 *ᴄʀᴇᴀᴛᴏʀ* : ᴛᴏɴɪᴄ ᴍᴜɴᴏᴅᴀᴡᴀғᴀ
 ╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄❑
 ${readMore}
 
