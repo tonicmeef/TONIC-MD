@@ -1,0 +1,16 @@
+{
+  "name": "TONIC-MD",
+  "description": "For deploying TONIC-MD.",
+  "repository": "https://github.com/tonicmeef/TONIC-MD",
+  "build": {
+    "commands": {
+      "install": "yarn install",
+      "start": "yarn start"
+    }
+  },
+  "envs": {
+    "SESSION_ID": {
+      "description": "Put Your Session Id"
+    }
+  }
+}
