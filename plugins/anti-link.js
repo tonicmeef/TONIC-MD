@@ -63,7 +63,7 @@ cmd({
       const warningCount = global.warnings[sender];
 
       // Handle warnings
-      if (warningCount < 4) {
+      if (warningCount < 1) {
         // Send warning message
         await conn.sendMessage(from, {
           text: `‎*⚠️ LINKS ARE NOT ALLOWED ⚠️*\n` +
@@ -71,7 +71,7 @@ cmd({
                 `*├▢ USER :* @${sender.split('@')[0]}!\n` +
                 `*├▢ COUNT : ${warningCount}*\n` +
                 `*├▢ REASON : LINK SENDING*\n` +
-                `*├▢ WARN LIMIT : 3*\n` +
+                `*├▢ WARN LIMIT : 1*\n` +
                 `*╰────────────────*`,
           mentions: [sender]
         });
