@@ -59,7 +59,7 @@ cmd({
       }
 
       // Update warning count for user
-      global.warnings[sender] = (global.warnings[sender] || 0) + 1;
+      global.warnings[sender] = (global.warnings[sender] || 0) + 2;
       const warningCount = global.warnings[sender];
 
       // Handle warnings
@@ -71,7 +71,7 @@ cmd({
                 `*├▢ USER :* @${sender.split('@')[0]}!\n` +
                 `*├▢ COUNT : ${warningCount}*\n` +
                 `*├▢ REASON : LINK SENDING*\n` +
-                `*├▢ WARN LIMIT : 1*\n` +
+                `*├▢ WARN LIMIT : 2*\n` +
                 `*╰────────────────*`,
           mentions: [sender]
         });
