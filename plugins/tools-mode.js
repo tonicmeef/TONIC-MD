@@ -35,8 +35,6 @@ cmd({
         return reply("❌ Invalid mode. Please use `.mode private` or `.mode public`.");
     }
 });
-
-}); 
 //--------------------------------------------
 // AUTO_LIKE_STATUS COMMANDS
 //--------------------------------------------
