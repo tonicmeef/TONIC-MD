@@ -11,7 +11,7 @@ let warnCount = {}; // Track warnings per user
 
 cmd({
     pattern: "mode",
-    alias: ["setkerm"],
+    alias: ["setmode"],
     desc: "Set bot mode to private or public.",
     category: "settings",
     filename: __filename,
