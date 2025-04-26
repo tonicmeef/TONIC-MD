@@ -77,9 +77,9 @@ cmd({
 
 //song cmd
 cmd({
-  pattern: "play3",
+  pattern: "play",
   react: '🎵',
-  alias: ['yta','ytaudio','audio' ],
+  alias: ['ridza','ytaudio','audio' ],
   desc: "Download audio from YouTube by searching for keywords (using multiple APIs).",
   category: "music",
   use: ".play <song name or keywords>",
