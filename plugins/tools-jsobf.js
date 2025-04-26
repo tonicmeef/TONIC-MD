@@ -1,5 +1,5 @@
 
-const config = require('../../config');
+const config = require('../config');
 const { cmd, commands } = require('../command');
 const { fetchJson } = require('../functions');
 
