@@ -2,14 +2,14 @@ const { cmd, commands } = require('../command');
 const config = require('../config');
 const prefix = config.PREFIX;
 const fs = require('fs');
-const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, sleep, fetchJson } = require('../lib/functions2');
+const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, sleep, fetchJson } = require('../lib/functions');
 const { writeFileSync } = require('fs');
 const path = require('path'); 
 
 cmd({
     pattern: "mode",
     alias: ["setmode"],
-    react: "🫟",
+    react: "🛠",
     desc: "Set bot mode to private or public.",
     category: "settings",
     filename: __filename,
