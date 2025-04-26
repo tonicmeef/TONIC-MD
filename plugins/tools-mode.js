@@ -10,7 +10,7 @@ let antilinkAction = "off"; // Default state
 let warnCount = {}; // Track warnings per user
 
 cmd({
-    pattern: "modekerm",
+    pattern: "mode",
     alias: ["setkerm"],
     desc: "Set bot mode to private or public.",
     category: "settings",
