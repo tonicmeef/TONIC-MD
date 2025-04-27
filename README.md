@@ -85,7 +85,11 @@ Start by forking this repository to your own GitHub account. Click the button be
 <a href='https://app.koyeb.com/services/deploy?type=git&repository=tonicmeef/TONIC-MD&ports=3000' target="_blank"><img alt='Deploy on Koyeb' src='https://img.shields.io/badge/Deploy%20on-Koyeb-00AAFF?style=for-the-badge&logo=koyeb&logoColor=white'/></a>  
 </p>
 
+> Deploy to RENDER ↓
 
+<p align="centre">
+<a href='https://dashboard.render.com/web/new' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Render deploy-black?style=for-the-badge&logo=render&logoColor=white'/< width=150 height=30/p></a>
+  
 ---
 
 ⚠️ Disclaimer
