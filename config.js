@@ -28,6 +28,8 @@ ALIVE_IMG: process.env.ALIVE_IMG || "",
 // add img for alive msg
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
+ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
+// make true to know who dismiss or promoted a member in group
 AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
