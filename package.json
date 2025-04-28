@@ -10,7 +10,7 @@
   },
   
   "dependencies": {
-    "@whiskeysockets/baileys": "6.7.16",
+    "@whiskeysockets/baileys": "npm:@fizzxydev/baileys-pro@8.5.12",
     "adm-zip": "^0.5.16",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@dark-yasiya/yt-dl.js": "1.0.5",
