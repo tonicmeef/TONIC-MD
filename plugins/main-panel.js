@@ -2,9 +2,9 @@ const { cmd } = require("../command");
 
 cmd({
     pattern: "panel","price",
-    desc: "All About The Bot & Dev",
+    desc: "All About panels",
     category: "main",
-    react: "🐬",
+    react: "🧓",
     filename: __filename
 }, async (conn, mek, m, { reply }) => {
     const familyList = `╔┈「 *_PANEL PRICE LIST_* 」
