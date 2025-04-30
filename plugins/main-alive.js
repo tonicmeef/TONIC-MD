@@ -18,7 +18,7 @@ async (conn, mek, m, { from, sender, reply }) => {
 │✨ *Hi lm Active & Online!*
 │
 │👑 *Owner:* ${config.OWNER_NAME}
-│⚡ *Version:* 4.0.0
+│⚡ *Version:* 1.0.0
 │⚙️ *Prefix:* [${config.PREFIX}]
 │🛠 *Mode:* [${config.MODE}]
 │⚖️ *RAM:* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}MB
