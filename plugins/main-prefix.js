@@ -30,7 +30,7 @@ cmd({
   const newPrefix = args[0]; 
   config.PREFIX = newPrefix; 
   // Save config to file 
-  fs.writeFileSync('../config.js', JSON.stringify(config, null, 2)); 
+  fs.writeFileSync('./config.js', JSON.stringify(config, null, 2)); 
   reply(`*Prefix changed to:* ${newPrefix}`); 
   const { exec } = require("child_process"); 
   reply("*_DATABASE UPDATE 𝗧𝗢𝗡𝗜𝗖-𝐌𝐃 RESTARTING NOW...🚀_*"); 
