@@ -3,5 +3,5 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install && npm install -g qrcode-terminal pm2
 COPY . .
-EXPOSE 3000
+EXPOSE 9090
 CMD ["npm", "start"]
