@@ -54,6 +54,7 @@
     "acrcloud": "^1.4.0",
     "unzipper": "^0.10.11",
     "mongoose": "^8.0.0",
+    "javascript-obfuscator": "^4.1.1",
     "imgur": "^2.4.2",
     "mrnima-moviedl":"1.0.0"
   }
