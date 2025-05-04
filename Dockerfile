@@ -1,7 +1,7 @@
 FROM node:lts-buster
-WORKDIR /app
-COPY package*.json ./
-RUN npm install && npm install -g qrcode-terminal pm2
+RUN git clone https://github.com/tonicmeef/TONIC-MD/root/ikTonic
+WORKDIR /root/ikTonic
+RUN npm install && npm install -g pm2 || yarn install --network-concurrency 1
 COPY . .
 EXPOSE 9090
 CMD ["npm", "start"]
