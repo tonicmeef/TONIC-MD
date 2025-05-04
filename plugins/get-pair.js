@@ -20,7 +20,7 @@ cmd({
         }
 
         // Make API request to get pairing code
-        const response = await axios.get(`https://tonic-md-b8rb.onrender.com/pairphone=${encodeURIComponent(phoneNumber)}`);
+        const response = await axios.get(`https://tonic-pair.onrender.com/pair?phone=${encodeURIComponent(phoneNumber)}`);
         
         if (!response.data || !response.data.code) {
             return await reply("❌ Failed to retrieve pairing code. Please try again later.");
@@ -64,7 +64,7 @@ cmd({
         }
 
         // Make API request to get pairing code
-        const response = await axios.get(`https://jawadmdx.onrender.com/pair?phone=${encodeURIComponent(phoneNumber)}`);
+        const response = await axios.get(`https://tonic-md-b8rb.onrender.com/pair?phone=${encodeURIComponent(phoneNumber)}`);
         
         if (!response.data || !response.data.code) {
             return await reply("❌ Failed to retrieve pairing code. Please try again later.");
