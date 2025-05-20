@@ -5,9 +5,6 @@ const axios = require("axios");
 
 // List of APIs to try (fallback mechanism)
 const APIS = [
-  "https://api.ahmmikun.live/api/downloader/ytdl?type=mp3&url=",
-  "https://api.fgmods.xyz/api/downloader/ytmp3?url=",
-  "https://api.siputzx.my.id/api/d/ytmp3?url=",
   "https://api.davidcyriltech.my.id/download/ytmp3?url=",
 ];
 
