@@ -20,7 +20,7 @@ cmd({
         if (!yt.results.length) return reply("No results found!");
 
         const song = yt.results[0];
-        const apiUrl = `https://apis.davidcyriltech.my.id/youtube/mp3?url=${encodeURIComponent(song.url)}`;
+        const apiUrl = `https://api.gifted.my.id/api/download/ytmp3?apikey=gifted&url=${encodeURIComponent(song.url)}`;
 
         const res = await fetch(apiUrl);
         const data = await res.json();
