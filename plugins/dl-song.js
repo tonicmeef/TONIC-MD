@@ -1,6 +1,7 @@
 
 const { cmd } = require("../command");
-const yts = require("yt-search");
+const { ytsearch } = require('@dark-yasiya/yt-dl.js');
+
 const axios = require("axios");
 
 cmd({ 
