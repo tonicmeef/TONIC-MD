@@ -5,7 +5,7 @@ const axios = require("axios");
 
 // List of APIs to try (fallback mechanism)
 const APIS = [
-  "https://api.davidcyriltech.my.id/download/ytmp3?url=",
+  "https://apis.davidcyriltech.my.id/download/ytmp3?url=",
 ];
 
 cmd({
