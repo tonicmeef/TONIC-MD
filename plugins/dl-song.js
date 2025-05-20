@@ -12,7 +12,7 @@ const APIS = [
 ];
 
 cmd({
-  pattern: "play2",
+  pattern: "play",
   react: '🎶',
   alias: ['ytmp3','ytplay','ytdoc'],
   desc: "Download audio from YouTube by searching for keywords (using multiple APIs).",
@@ -77,7 +77,7 @@ cmd({
 
 //song cmd
 cmd({
-  pattern: "play",
+  pattern: "play2",
   react: '🎵',
   alias: ['ridza','ytaudio','audio' ],
   desc: "Download audio from YouTube by searching for keywords (using multiple APIs).",
