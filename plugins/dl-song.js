@@ -3,73 +3,51 @@ const { cmd } = require("../command");
 const yts = require("yt-search");
 const axios = require("axios");
 
-// List of APIs to try (fallback mechanism)
-const APIS = [
-  "https://apis.davidcyriltech.my.id/download/ytmp3?url=",
-];
+cmd({ 
+    pattern: "song", 
+    alias: ["play", "mp3"], 
+    react: "🎶", 
+    desc: "Download YouTube song", 
+    category: "main", 
+    use: '.song <query>', 
+    filename: __filename 
+}, async (conn, mek, m, { from, sender, reply, q }) => { 
+    try {
+        if (!q) return reply("Please provide a song name or YouTube link.");
 
-cmd({
-  pattern: "play",
-  react: '🎶',
-  alias: ['ytmp3','ytplay','ytdoc'],
-  desc: "Download audio from YouTube by searching for keywords (using multiple APIs).",
-  category: "music",
-  use: ".play <song name or keywords>",
-  filename: __filename
-}, async (conn, mek, msg, { from, args, reply }) => {
-  try {
-    const searchQuery = args.join(" ");
-    if (!searchQuery) {
-      return reply("*Please provide a song name or keywords to search for.*");
-    }
+        const yt = await ytsearch(q);
+        if (!yt.results.length) return reply("No results found!");
 
-    reply("*TONIC-MD 🤖 SEARCHING FOR QUERY*");
+        const song = yt.results[0];
+        const apiUrl = `https://apis.davidcyriltech.my.id/youtube/mp3?url=${encodeURIComponent(song.url)}`;
 
-    // Search for videos on YouTube
-    const searchResults = await yts(searchQuery);
-    if (!searchResults.videos || searchResults.videos.length === 0) {
-      return reply(`❌ No results found for "${searchQuery}".`);
-    }
+        const res = await fetch(apiUrl);
+        const data = await res.json();
 
-    const firstResult = searchResults.videos[0];
-    const videoUrl = firstResult.url;
+        if (!data?.result?.downloadUrl) return reply("Download failed. Try again later.");
 
-    let downloadUrl = null;
-    let title = firstResult.title;
-
-    // Try each API until one works
-    for (const api of APIS) {
-      try {
-        const apiUrl = api + encodeURIComponent(videoUrl);
-        const response = await axios.get(apiUrl);
-
-        if (response.data && response.data.success && response.data.result && response.data.result.download_url) {
-          downloadUrl = response.data.result.download_url;
-          title = response.data.result.title || title;
-          break; // Exit loop if successful
-        }
-      } catch (error) {
-        console.error(`API failed: ${api}`, error);
-      }
-    }
-
-    if (!downloadUrl) {
-      return reply("❌ All APIs failed. Please try again later.");
-    }
-
-    // Send the audio file
     await conn.sendMessage(from, {
-      document: { url: downloadUrl },
-      mimetype: "audio/mpeg",
-      fileName: title + ".mp3",
-      caption: `> Song downloaded Successfully 🤖`
-    }, { quoted: mek });
+    audio: { url: data.result.downloadUrl },
+    mimetype: "audio/mpeg",
+    fileName: `${song.title}.mp3`,
+    contextInfo: {
+        externalAdReply: {
+            title: song.title.length > 25 ? `${song.title.substring(0, 22)}...` : song.title,
+            body: "Join our WhatsApp Channel",
+            mediaType: 1,
+            thumbnailUrl: song.thumbnail.replace('default.jpg', 'hqdefault.jpg'),
+            sourceUrl: 'https://whatsapp.com/channel/0029VayQpwx8F2pIKEWkcd0f',
+            mediaUrl: 'https://whatsapp.com/channel/0029VayQpwx8F2pIKEWkcd0f',
+            showAdAttribution: true,
+            renderLargerThumbnail: true
+        }
+    }
+}, { quoted: mek });
 
-    reply(`✅ *${title}* has been downloaded successfully!`);
-  } catch (error) {
-    console.error("Error downloading audio:", error);
-    reply("❌ An error occurred while processing your request.");
-  }
+    } catch (error) {
+        console.error(error);
+        reply("An error occurred. Please try again.");
+    }
 });
 
 //song cmd
