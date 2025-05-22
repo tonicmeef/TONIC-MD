@@ -63,7 +63,7 @@ Start by forking this repository to your own GitHub account. Click the button be
 > Get Pair Code (Session ID)
 
 <p align="left">  
-<a href='https://tonic-md-b8rb.onrender.com' target="_blank"><img alt='Get Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-0000FF?style=for-the-badge&logo=codefactor&logoColor=white'/></a>  
+<a href='https://tonic-tech-pair2.onrender.com' target="_blank"><img alt='Get Pairing Code' src='https://img.shields.io/badge/Get%20Pairing%20Code-0000FF?style=for-the-badge&logo=codefactor&logoColor=white'/></a>  
 </p>
 
 
