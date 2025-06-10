@@ -24,21 +24,21 @@ async (conn, mek, m, {
   }
 
   try {
-    // created by jawad tech 
-    const response = await axios.get(`https://api.davidcyriltech.my.id/ssweb?url=${q}`);
+    // created by tonic
+    const response = await axios.get(`https://apis.davidcyriltech.my.id/ssweb?url=${q}`);
     const screenshotUrl = response.data.screenshotUrl;
 
     // give credit and use
     const imageMessage = {
       image: { url: screenshotUrl },
-      caption: "*WEB SS DOWNLOADER*\n\n> *© Powered By JawadTechX*",
+      caption: "*WEB SS DOWNLOADER*\n\n> > *© Pᴏᴡᴇʀᴇᴅ Bʏ Tᴏɴɪᴄ Tᴇᴄʜ Iɴᴄ.♡*",
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363354023106228@newsletter',
-          newsletterName: "JawadTechX",
+          newsletterJid: '120363374632065395@newsletter',
+          newsletterName: "Tᴏɴɪᴄ Tᴇᴄʜ Iɴᴄ.",
           serverMessageId: 143,
         },
       },
