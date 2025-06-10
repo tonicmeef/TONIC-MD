@@ -16,7 +16,7 @@ cmd({
     if (!isOwner) return reply("This command is only for the bot owner.");
 
     try {
-        await reply("🔍 Checking for TONIC-MD updates...");
+        await reply("🔍 ᴄʜᴇᴄᴋɪɴɢ ғᴏʀ ᴛᴏɴɪᴄ-ᴍᴅ ᴜᴘᴅᴀᴛᴇs...");
 
         // Fetch the latest commit hash from GitHub
         const { data: commitData } = await axios.get("https://api.github.com/repos/tonicmeef/TONIC-MD/commits/main");
@@ -26,10 +26,10 @@ cmd({
         const currentHash = await getCommitHash();
 
         if (latestCommitHash === currentHash) {
-            return reply("✅ Your TONIC-MD bot is already up-to-date!");
+            return reply("✅ ʏᴏᴜʀ ᴛᴏɴɪᴄ-ᴍᴅ ʙᴏᴛ ɪs ᴀʟʀᴇᴀᴅʏ ᴜᴘ-ᴛᴏ-ᴅᴀᴛᴇ!");
         }
 
-        await reply("Updating TONIC-MD Bot...");
+        await reply("ᴜᴘᴅᴀᴛɪɴɢ ᴛᴏɴɪᴄ-ᴍᴅ ʙᴏᴛ...");
 
         // Download the latest code
         const zipPath = path.join(__dirname, "latest.zip");
@@ -43,7 +43,7 @@ cmd({
         zip.extractAllTo(extractPath, true);
 
         // Copy updated files, preserving config.js and app.json
-        await reply("🔄 Replacing files...");
+        await reply("🔄 ʀᴇᴘʟᴀᴄɪɴɢ ғɪʟᴇs...");
         const sourcePath = path.join(extractPath, "TONIC-MD-main");
         const destinationPath = path.join(__dirname, '..');
         copyFolderSync(sourcePath, destinationPath);
@@ -55,7 +55,7 @@ cmd({
         fs.unlinkSync(zipPath);
         fs.rmSync(extractPath, { recursive: true, force: true });
 
-        await reply("✅ Update complete! Restarting the bot...");
+        await reply("✅ ᴜᴘᴅᴀᴛᴇ ᴄᴏᴍᴘʟᴇᴛᴇ! ʀᴇsᴛᴀʀᴛɪɴɢ ᴛʜᴇ ʙᴏᴛ...");
         process.exit(0);
     } catch (error) {
         console.error("Update error:", error);
