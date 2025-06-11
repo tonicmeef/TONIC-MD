@@ -2,9 +2,9 @@
 {
     "bot-name": "TONIC-MD",
     "description": "Simple whatsapp bot made with Baileys",
-    "logo": "hhttps://files.catbox.moe/scvigx.jpg",
+    "logo": "https://files.catbox.moe/scvigx.jpg",
     "keywords": ["bot"],
-    "documentation-link": "https://tonic-md-b8rb.onrender.com",
+    "documentation-link": "https://tonic-tech-pair2.onrender.com",
     "owner-verification":"tonicflexy@gmail.com",
   
     "env": {
