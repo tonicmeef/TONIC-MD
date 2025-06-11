@@ -103,7 +103,7 @@ cmd({
           'image': {
             'url': _0x58b5b7.images_url
           },
-          'caption': "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʟɪ ᴍᴅ*" 
+          'caption': "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴛᴏɴɪᴄ-ᴍᴅ*" 
         }, {
           'quoted': _0x59fdb9
         });
