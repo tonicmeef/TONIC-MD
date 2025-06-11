@@ -5,7 +5,7 @@
     "logo": "hhttps://files.catbox.moe/scvigx.jpg",
     "keywords": ["bot"],
     "documentation-link": "https://tonic-md-b8rb.onrender.com",
-    "owner-verification":"tonicflexy@gmail@gmail.com",
+    "owner-verification":"tonicflexy@gmail.com",
   
     "env": {
       "SESSION_ID": {
