@@ -9,7 +9,7 @@
   
     "env": {
       "SESSION_ID": {
-        "description": "Put your SESSION_ID here. Make sure it starts with Byte;;;, or get session id from here, https://session.talkdrove.com",
+        "description": "Put your SESSION_ID here. Make sure it starts with TONIC-MD~ or get session id from here, https://session.talkdrove.com",
         "value":"",
         "required": true
         
