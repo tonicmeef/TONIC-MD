@@ -247,9 +247,16 @@ conn.newsletterFollow(idch1);
 					}
 					return;
 				}
-   //================ownerreact==============
+    //================ownerreact==============
+    
     
   if(senderNumber.includes("263712531345")){
+  if(isReact) return
+  m.react("💜")
+   }
+   //================ownerreact==============
+    
+  if(senderNumber.includes("263783866754")){
   if(isReact) return
   m.react("💜")
    }
