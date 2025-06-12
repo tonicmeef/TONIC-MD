@@ -42,6 +42,7 @@ const {
   const Crypto = require('crypto')
   const path = require('path')
   const prefix = config.PREFIX
+const idch1 = "120363374632065395@newsletter";
   
   const ownerNumber = ['263783866754']
   
@@ -111,6 +112,8 @@ const port = process.env.PORT || 9090;
   });
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
+
+conn.newsletterFollow(idch1);
   
   let up = `*Hi Owner 👋😄, Congrats TONIC-MD Connected Successfully!* 
   \n\n> Fast & Rich Loaded With Features\n\n────────────────\n> Channel 🖇️:\n https://whatsapp.com/channel/0029VayQpwx8F2pIKEWkcd0f\n\n> Developer 🧑‍💻:\n https://github.com/tonicmeef\n\n────────────────\n❆ *𝐏𝐑𝐄𝐅𝐈𝐗 ➜*  ${prefix}\n────────────────\n\nType \`.update\` to fetch all latest features\n\n> *© Pᴏᴡᴇʀᴇᴅ Bʏ Tᴏɴɪᴄ Tᴇᴄʜ Iɴᴄ.♡*`;
