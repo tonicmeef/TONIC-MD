@@ -103,7 +103,7 @@
 
 ```
 
-<
+
 
 ## 🪀  SUPPORT CHANNEL
 
@@ -125,6 +125,5 @@
 </div>
 
 <div align="center">
-  <img src="https://github.com/JawadYT36/KHAN-MD/blob/main/assets/digitalrain.gif?raw=true" width="100%"/>
-</div>
+ 
 
