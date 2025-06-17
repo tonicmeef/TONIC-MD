@@ -114,8 +114,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github.com/tonicmeef/TONIC-MD/blob/main/assets/neonpulse.gif?raw=true" width="300"/>
-</div>
+  <
 
 ## ⚠️ WARNING !
 
