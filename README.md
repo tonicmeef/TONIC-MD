@@ -34,12 +34,6 @@
   <img src="https://i.imgur.com/LyHic3i.gif" width="400" style="border-radius: 20px; box-shadow: 0 0 25px #0088ff;"/>
 </div>
 
-<div align="center">
-  <img src="https://github.com/tonicmeef/TONIC-MD/blob/main/assets/divider.gif?raw=true" width="100%"/>
-</div>
-<div align="center">
-  <img src="https://github.com/tonicmeef/TONIC-MD/blob/main/assets/deployheader.gif?raw=true" width="80%"/>
-</div>
 
 ## 🛰️ Deployment Steps
 
@@ -64,15 +58,7 @@
     <img src='https://img.shields.io/badge/PAIR_CODE_1-00FFFF?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
   </a></br>
   
-  <div style="height: 10px;"></div>
   
-
-  
- 
-
-<div align="center">
-  <img src="https://github.com/tonicmeef/TONIC-MD/blob/main/assets/techwave.gif?raw=true" width="80%"/>
-</div>
 
 ## 📡 DEPLOYMENT OPTIONS
 
@@ -115,11 +101,8 @@
 - Super Fast
 - High performance on Groups and Deployment lasts long
 
-```
-
-<div align="center">
-  <img src="https://github.com/tonicmeef/TONIC-MD/blob/main/assets/cyberdivider.gif?raw=true" width="100%"/>
-</div>
+`````
+`````
 
 ## 🪀  SUPPORT CHANNEL
 
@@ -129,9 +112,6 @@
   </a>
 </div>
 
-<div align="center">
-  <img src="https://github.com/tonicmeef/TONIC-MD/blob/main/assets/neonpulse.gif?raw=true" width="300"/>
-</div>
 
 ## ⚠️ WARNING !
 
@@ -139,8 +119,3 @@
   <h3 style="color: #00ffff; font-family: 'Orbitron', sans-serif;">DISCLAIMER</h3>
   <p style="color: #ffffff;">This bot is not affiliated with WhatsApp Inc. Use at your own risk. Misuse may result in account bans.</p>
 </div>
-
-<div align="center">
-  <img src="https://github.com/JawadYT36/KHAN-MD/blob/main/assets/digitalrain.gif?raw=true" width="100%"/>
-</div>
-
