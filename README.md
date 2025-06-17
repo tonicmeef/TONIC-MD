@@ -103,9 +103,7 @@
 
 ```
 
-<div align="center">
-  <img src="https://github.com/tonicmeef/TONIC-MD/blob/main/assets/cyberdivider.gif?raw=true" width="100%"/>
-</div>
+<
 
 ## 🪀  SUPPORT CHANNEL
 
