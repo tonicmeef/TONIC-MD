@@ -31,14 +31,7 @@ function getHararedate() {
 }
 
 // Function to get number of commands
-        const totalCommands = Object.keys(commands).length
-        let aliasCount = 0
-        Object.values(commands).forEach(cmd => {
-            if (cmd.alias) aliasCount += cmd.alias.length
-        })
-
-        // Get unique categories count
-        const categories = [...new Set(Object.values(commands).map(c => c.category))]
+        const totalCommands = Object.keys(commands).length;
      
 // Function to fetch version from package.json
 async function fetchVersion() {
