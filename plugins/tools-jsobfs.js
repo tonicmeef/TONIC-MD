@@ -32,7 +32,7 @@ cmd(
       }
 
       const obfuscatedCode = response.data.result.obfuscated_code.code;
-      const filePath = path.join(__dirname, '../media/obfuscated.js');
+      const filePath = path.join(__dirname, '../data/obfuscated.js');
       fs.writeFileSync(filePath, obfuscatedCode, 'utf8');
 
       const newsletterContext = {
