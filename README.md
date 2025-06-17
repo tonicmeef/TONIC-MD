@@ -108,13 +108,11 @@
 ## 🪀  SUPPORT CHANNEL
 
 <div align="center">
-  <a href="https://whatsapp.com/channel/0029VayQpwx8F2pIKEWkcd0f">
-    
-  </a>
+  <a href="https://whatsapp.com/channel/0029VayQpwx8F2pIKEWkcd0f"></a>
 </div>
 
 <div align="center">
-  <
+  
 
 ## ⚠️ WARNING !
 
