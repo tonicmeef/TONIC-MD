@@ -101,9 +101,6 @@
 - Super Fast
 - High performance on Groups and Deployment lasts long
 
-`````
-`````
-
 ## 🪀  SUPPORT CHANNEL
 
 <div align="center">
