@@ -101,6 +101,12 @@
 - Super Fast
 - High performance on Groups and Deployment lasts long
 
+```
+
+<div align="center">
+  <img src="https://github.com/tonicmeef/TONIC-MD/blob/main/assets/cyberdivider.gif?raw=true" width="100%"/>
+</div>
+
 ## 🪀  SUPPORT CHANNEL
 
 <div align="center">
@@ -109,6 +115,9 @@
   </a>
 </div>
 
+<div align="center">
+  <img src="https://github.com/tonicmeef/TONIC-MD/blob/main/assets/neonpulse.gif?raw=true" width="300"/>
+</div>
 
 ## ⚠️ WARNING !
 
@@ -116,3 +125,8 @@
   <h3 style="color: #00ffff; font-family: 'Orbitron', sans-serif;">DISCLAIMER</h3>
   <p style="color: #ffffff;">This bot is not affiliated with WhatsApp Inc. Use at your own risk. Misuse may result in account bans.</p>
 </div>
+
+<div align="center">
+  <img src="https://github.com/JawadYT36/KHAN-MD/blob/main/assets/digitalrain.gif?raw=true" width="100%"/>
+</div>
+
